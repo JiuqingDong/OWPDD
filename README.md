@@ -8,6 +8,8 @@
 
 
 ### Installation
+* You can install the environment following this https://github.com/JosephKJ/OWOD
+  
 * Set up environment
 
     conda create -n OWPDD python=3.7
