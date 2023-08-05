@@ -3,7 +3,7 @@
 * This code is an implementation of our manuscript: A New Deep Learning-based Dynamic Paradigm Towards Open-World Plant Disease Detection
 
 * The manuscript is currently under peer review. We submitted it to Frontiers in Plant Science.
-* Authors: Jiuqing Dong, Alvaro Fuentes, Sook Yoon*, Hyongsuk Kim*, Dong Sun Park
+* Authors: Jiuqing Dong, Alvaro Fuentes, Sook Yoon*, Hyongsuk Kim*, Yongchae Jeong, Dong Sun Park
 * We will release the code and complete this documentation as soon as possible.
 
 
@@ -25,6 +25,11 @@
 * install mmdet (will take a while to process)
 
     python -m pip install -e ./
+
+### Pre-trained model
+* You can use our pre-trained model on google drive[https://drive.google.com/drive/folders/1ru5TrhXtRzFcAgo9E2FSx8rRDTyxE5HZ?usp=sharing]
+* If you use the Object365 model, please cite our paper. Other pre-trained models are from Detectron2.
+
 
 ### train and test
 
