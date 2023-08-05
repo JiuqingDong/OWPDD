@@ -24,6 +24,8 @@
 
 * install mmdet (will take a while to process)
 
+    unzip detectron2.zip
+
     python -m pip install -e ./
 
 ### Pre-trained model
