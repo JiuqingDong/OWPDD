@@ -4,7 +4,7 @@
 
 * The manuscript is currently under peer review. We submitted it to Frontiers in Plant Science.
 * Authors: Jiuqing Dong, Alvaro Fuentes, Sook Yoon*, Hyongsuk Kim*, Yongchae Jeong, Dong Sun Park
-* We will release the code and complete this documentation as soon as possible.
+
 
 
 ### Installation
@@ -29,15 +29,16 @@
     python -m pip install -e ./
 
 ### Pre-trained model
-* You can use our pre-trained model on google drive[https://drive.google.com/drive/folders/1ru5TrhXtRzFcAgo9E2FSx8rRDTyxE5HZ?usp=sharing]
+* You can use our pre-trained model on [google drive](https://drive.google.com/drive/folders/1ru5TrhXtRzFcAgo9E2FSx8rRDTyxE5HZ?usp=sharing) to implement Well-trained UARPN in our work.
 * If you use the Object365 model, please cite our paper. Other pre-trained models are from Detectron2.
 
-
+### Note 
+* We use Object365 pre-trained model to evaluate the OWOD task on the COCO dataset. We provide a part of the result at COCO_RESULT.xls
 ### train and test
 
 * Kindly check run.sh file for a task workflow.
 
-#### We will optimize our code and complete this documentation as soon as possible.
+#### We will optimize our code and complete this documentation after our manuscript is accepted.
 
 
 
@@ -81,9 +82,10 @@ step 1: Put the customer dataset into ./datasets, the structure should be like t
     
 step 2: Change the config file, such as NUM_CLASSES, OWOD.CUR_INTRODUCED_CLS, PREV_INTRODUCED_CLS, and so on. You also can define your own dataset name. Note that the name matching at './detectron2/data/datasets/builtin.py'
 
-step 3: Change the classes names at './detectron2/data/datasets/pascal_voc.py'
+step 3: Change the category names at './detectron2/data/datasets/pascal_voc.py'
 
-
+step 4: Train the model. Kindly check run.sh file for a task workflow, and then run it. For example: 
+- sh run.sh
 
 
 
