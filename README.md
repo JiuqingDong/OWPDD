@@ -33,7 +33,7 @@
 * If you use the Object365 model, please cite our paper. Other pre-trained models are from Detectron2.
 
 ### Note 
-* We use Object365 pre-trained model to evaluate the OWOD task on the COCO dataset. We provide a part of the result at [COCO_RESULT.xlsx](https://github.com/JiuqingDong/OWPDD/blob/main/COCO.xlsx)
+* We use Object365 pre-trained model to evaluate the OWOD task on the COCO dataset. We provide a part of the result at [COCO.xlsx](https://github.com/JiuqingDong/OWPDD/blob/main/COCO.xlsx)
 ### train and test
 
 * Kindly check run.sh file for a task workflow.
