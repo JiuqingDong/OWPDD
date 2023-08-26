@@ -29,17 +29,16 @@
     python -m pip install -e ./
 
 ### Pre-trained model
-* You can use our pre-trained model on [google drive](https://drive.google.com/drive/folders/1ru5TrhXtRzFcAgo9E2FSx8rRDTyxE5HZ?usp=sharing) to implement Well-trained UARPN in our work.
+* You can use our pre-trained model on [google drive](https://drive.google.com/drive/folders/1ru5TrhXtRzFcAgo9E2FSx8rRDTyxE5HZ?usp=sharing) to implement Well-trained UA-RPN in our work.
 * If you use the Object365 model, please cite our paper. Other pre-trained models are from Detectron2.
 
 ### Note 
-* We use Object365 pre-trained model to evaluate the OWOD task on the COCO dataset. We provide a part of the result at COCO_RESULT.xls
+* We use Object365 pre-trained model to evaluate the OWOD task on the COCO dataset. We provide a part of the result at [COCO_RESULT.xlsx](https://github.com/JiuqingDong/OWPDD/blob/main/COCO.xlsx)
 ### train and test
 
 * Kindly check run.sh file for a task workflow.
 
 #### We will optimize our code and complete this documentation after our manuscript is accepted.
-
 
 
 ## How to use this code for a customer dataset?
